@@ -4,17 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-    <form action="" id="form">
-        <textarea name="" id="formText" cols="30" rows="10" value="xyz"></textarea>
-    </form>
-    <button id="showValue">Full Name</button>
-    <div>
-        <ul id="outputValue"></ul>
-    </div>
-    <div>
-        <ul id="invalidData"></ul>
+    <div class="country-code">
+        <div class="container">
+            <h2 class="title">Country Code Alpha-2 and Alpha-3 Converter</h2>
+            <form action="" id="form">
+                <span>Input</span>
+                <textarea name="" id="formText" cols="30" rows="10" value="xyz" placeholder="Your Country Alpha-2 or Alpha-3 Code Here..."></textarea>
+            </form>
+            <button id="showValue">Generate Full Name</button>
+            <div>
+                <span>Output</span>
+                <ul id="outputValue"></ul>
+            </div>
+            <div>
+                <ul id="invalidData"></ul>
+            </div>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
